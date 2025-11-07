@@ -1,0 +1,39 @@
+{
+	"language": "Solidity",
+	"settings": {
+		"remappings": [
+			"@axelar-network/=node_modules/@axelar-network/",
+			"@chainlink/=node_modules/@chainlink/",
+			"@eth-optimism/=node_modules/@eth-optimism/",
+			"@layerzerolabs/=node_modules/@layerzerolabs/",
+			"@openzeppelin/=node_modules/@openzeppelin/",
+			"forge-std/=node_modules/forge-std/src/",
+			"hardhat-deploy/=node_modules/hardhat-deploy/",
+			"solidity-bytes-utils/=node_modules/solidity-bytes-utils/",
+			"@src/=src/"
+		],
+		"optimizer": {
+			"enabled": true,
+			"runs": 10000
+		},
+		"metadata": {
+			"useLiteralContent": false,
+			"bytecodeHash": "none",
+			"appendCBOR": true
+		},
+		"outputSelection": {
+			"*": {
+				"*": [
+					"evm.bytecode",
+					"evm.deployedBytecode",
+					"devdoc",
+					"userdoc",
+					"metadata",
+					"abi"
+				]
+			}
+		},
+		"evmVersion": "shanghai",
+		"viaIR": true
+	}
+}
