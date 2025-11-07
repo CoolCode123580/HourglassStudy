@@ -15,6 +15,8 @@ import { HourglassStableVaultKYCManager } from "./base/HourglassStableVaultKYCMa
 import { HourglassStableVaultTreasuryManager } from "./base/HourglassStableVaultTreasuryManager.sol";
 import { IBridgeableVault } from "./interfaces/IBridgeableVault.sol";
 
+// 一个来自XXX的注释
+
 enum OperationalMode {
     Deposit,
     Kyc,
